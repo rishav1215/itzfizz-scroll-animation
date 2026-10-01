@@ -1,16 +1,193 @@
-# React + Vite
+# ITZFIZZ Scroll-Driven Hero Animation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern scroll-driven hero section built as part of the ITZFIZZ Digital Web Development Internship assignment.
 
-Currently, two official plugins are available:
+The project focuses on smooth frontend animation, scroll-based interactions, responsive design, and performance-friendly motion using React, Tailwind CSS, and GSAP.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://rishav1215.github.io/itzfizz-scroll-animation/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the ESLint configuration
+https://github.com/rishav1215/itzfizz-scroll-animation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* Scroll-driven hero section animation
+* GSAP ScrollTrigger integration
+* Smooth car movement based on scroll
+* Animated headline reveal
+* Animated statistics counters
+* Responsive desktop and mobile layout
+* Smooth initial page-load animations
+* Reduced-motion accessibility support
+* Performance-friendly transform-based animations
+* Futuristic dark UI design
+
+## 🛠️ Technologies Used
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
+* GSAP
+* GSAP ScrollTrigger
+* Vite
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/rishav1215/itzfizz-scroll-animation.git
+```
+
+### 2. Go to the project folder
+
+```bash
+cd itzfizz-scroll-animation
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available on the local development server shown in your terminal.
+
+## 🏗️ Production Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## 🌐 Deployment
+
+The project is deployed using GitHub Pages through GitHub Actions.
+
+Every push to the `master` branch automatically builds and deploys the project.
+
+### Live Website
+
+https://rishav1215.github.io/itzfizz-scroll-animation/
+
+## 🎯 Assignment Objective
+
+The objective of this project is to demonstrate:
+
+* Frontend animation skills
+* Scroll-based interaction
+* GSAP ScrollTrigger implementation
+* React development
+* Tailwind CSS styling
+* Responsive web development
+* Performance-conscious animation techniques
+* Smooth user experience
+
+## 🎨 Animation Details
+
+The hero section includes:
+
+* Initial headline reveal animation
+* Statistics counter animation
+* Scroll-driven car movement
+* Animated road movement
+* Scroll-based headline fill animation
+* Pinned hero section using GSAP ScrollTrigger
+* Smooth animation easing
+* Reduced-motion support for accessibility
+
+## 📱 Responsive Design
+
+The interface is designed to work across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile devices
+
+The layout and typography adapt to different screen sizes using responsive Tailwind CSS utilities.
+
+## ⚡ Performance
+
+The animation uses GSAP and CSS transforms for smooth visual movement.
+
+The project avoids unnecessary layout changes during animation and includes support for users who prefer reduced motion.
+
+## 📁 Project Structure
+
+```text
+itzfizz-scroll-animation/
+│
+├── public/
+│   └── images/
+│       ├── hero-car.png
+│       └── hero-car2.png
+│
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🔄 Deployment Workflow
+
+The deployment process is automated using GitHub Actions:
+
+```text
+Code Change
+     ↓
+Git Push
+     ↓
+GitHub Actions
+     ↓
+npm ci
+     ↓
+npm run build
+     ↓
+GitHub Pages
+     ↓
+Live Website
+```
+
+## 👨‍💻 Developer
+
+**Rishav Ranjan**
+
+BCA Student | Web Developer
+
+### Skills
+
+* HTML
+* CSS
+* JavaScript
+* React.js
+* Tailwind CSS
+* GSAP
+* PHP
+* Laravel
+* Python
+
+## 📄 License
+
+This project was created for educational and internship assignment purposes.
