@@ -159,7 +159,7 @@ function App() {
           >
             <div className="absolute inset-x-[8%] -bottom-3 h-6 rounded-full bg-[#2F5BFF]/50 blur-xl" />
             <img
-              src="/images/hero-car2.png"
+              src={`${import.meta.env.BASE_URL}images/hero-car2.png`}
               alt="ITZFIZZ futuristic car"
               className="w-full h-auto object-contain"
             />
