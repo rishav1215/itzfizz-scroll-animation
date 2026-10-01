@@ -154,7 +154,7 @@ function App() {
           <div className="absolute inset-x-0 bottom-[14%] h-px bg-[#ECE8E1]/15" />
           <div
             data-car
-            className={`absolute bottom-[13%] w-[62%] max-w-[860px] md:w-[46%] ${CAR_FACES_RIGHT ? "left-[4%]" : "right-[4%]"
+            className={`absolute bottom-[13%] z-30 w-[62%] max-w-[860px] md:w-[46%] ${CAR_FACES_RIGHT ? "left-[4%]" : "right-[4%]"
               }`}
           >
             <div className="absolute inset-x-[8%] -bottom-3 h-6 rounded-full bg-[#2F5BFF]/50 blur-xl" />
